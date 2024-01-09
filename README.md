@@ -39,7 +39,7 @@ kuma.core_backup('backup.tar.gz')
 ```
 Import assets
 ```
-kuma.import_assets(tenantID='a0996458-8b25-42e9-a673-d800d6169703',assets=assets)
+kuma.import_assets(tenantID='a0996458-8b25-42e9-a673-d800d6169703', assets=assets)
 ```
 Search alerts
 ```
