@@ -1,7 +1,7 @@
-# kuma-public-api: python library for KUMA REST API
+# kumaPublicApiV1: python library for KUMA REST API
 ## Description
 
-kuma-public-api - это библиотека для python для работы с открытым REST API KUMA.
+kumaPublicApiV1 - это библиотека для python для работы с открытым REST API KUMA.
 Бибилиотека содержит большинство поддерживаемых методов API KUMA, за исключением методов по работе с ресурсами: экспорт, импорт, просмотр, скачивание.
 
 ## Usage
