@@ -6,6 +6,12 @@ English version below
 kumaPublicApiV1 - это модуль для python для работы с открытым REST API KUMA.
 Модуль содержит большинство поддерживаемых методов API KUMA, за исключением методов по работе с ресурсами: экспорт, импорт, просмотр, скачивание.
 
+## Требования
+
+python 3.6+
+- requests
+- json
+
 ## Использование
 
 Скачайте kumaPublicApiV1.py и используйте модуль в своих проектах интеграции с KUMA.
@@ -52,6 +58,12 @@ alerts_list = kuma.get_alerts()
 
 kumaPublicApiV1 - python module for KUMA REST API .
 Module contains most REST API KUMA methods except resource export, import, view and download.
+
+## Requirements
+
+python 3.6+
+- requests
+- json
 
 ## Usage
 
