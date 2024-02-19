@@ -1,10 +1,10 @@
-# kumaPublicApiV1: python library for KUMA REST API
+# kumaPublicApiV1: python module for KUMA REST API
 English version below
 
 ## Описание
 
-kumaPublicApiV1 - это библиотека для python для работы с открытым REST API KUMA.
-Бибилиотека содержит большинство поддерживаемых методов API KUMA, за исключением методов по работе с ресурсами: экспорт, импорт, просмотр, скачивание.
+kumaPublicApiV1 - это модуль для python для работы с открытым REST API KUMA.
+Модуль содержит большинство поддерживаемых методов API KUMA, за исключением методов по работе с ресурсами: экспорт, импорт, просмотр, скачивание.
 
 ## Использование
 
@@ -35,7 +35,7 @@ with open('records.csv', 'r') as file:
   data = file.read()
 kuma.import_active_list_records(data, correlatorID='2f743382-8313-4f45-a801-979367a0d0a3', activeListID='a0996458-8b25-42e9-a673-d800d6169703', keyField='key')
 ```
-Бэкап
+Бэкап конфигурации
 ```
 kuma.core_backup('backup.tar.gz')
 ```
@@ -43,7 +43,7 @@ kuma.core_backup('backup.tar.gz')
 ```
 kuma.import_assets(tenantID='a0996458-8b25-42e9-a673-d800d6169703', assets=assets)
 ```
-Поиск адертов
+Поиск алертов
 ```
 alerts_list = kuma.get_alerts()
 ```
